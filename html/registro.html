@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FORMULARIO</title>
+   <link rel="stylesheet" href="../estilos/estilos.css">
+   <script src="../registrar.js"></script>
+
+</head>
+
+<body>
+   <img id="logo"
+      src="https://images.vexels.com/media/users/3/140003/isolated/preview/960816ac80434d43526b1968ffa415e3-icono-de-formulario-de-contacto.png" />
+   <h1>Registro</h1>
+
+   <div id="login">
+      <a id="enlace-login" target="_blank"
+         href="./login.html">login</a>
+   </div>
+
+   <br>
+   <!--- <div id="contenedorTexto">-->
+   <form id="form-registro">
+      <!--CAMPO DE TEXTO-->
+      <label for="username">Usuario</label>
+      <br>
+      <input size="80" type="text" name="" id="username" placeholder="Crea un usuario" />
+      <br>
+      <label for="edad">Edad</label>
+      <br>
+      <input size="80" type="text" id="edad" name="" placeholder="Ingrese su edad" />
+      <br>
+      <label for="">Contraseña</label>
+      <br>
+      <input size="80" type="password" id="password" name="password" placeholder="Crea una contraseña" />
+      <br>
+      <input type="button" name="" id="registrar" value="registrar" onclick="agregarRegistro()">
+      <input type="button" name="" id="validarUser" value="Login" onclick="validarUser()">
+      <br>
+      <br>
+
+
+      <!--<input type="submit" value="Registrar" />-->
+
+   </form>
+
+</body>
+
+</html>
